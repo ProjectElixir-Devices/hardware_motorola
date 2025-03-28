@@ -1,0 +1,13 @@
+//
+// Copyright (C) 2025 The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+soong_namespace {
+}
+
+mkdir {
+    name: "vendor_fsg_mountpoint",
+    dir: "fsg",
+    vendor: true,
+}
